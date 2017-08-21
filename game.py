@@ -1,19 +1,8 @@
-from pygame.locals import *
-import pygame
-
-class Player:
-    x = 10
-    y = 10
-    speed = 1
-
-    def moveRight(self):
-        self.x = self.x + self.speed
-
-    def moveLeft(self):
-        self.x = self.x - self.speed
-
-    def moveUp(self):
-        self.y = self.y + self.speed
-
-    def moveDown(self):
-        self.y = self.y - self.speed
+while True:
+    # clear screen
+    # display the snake
+    # display the food
+    # display the score
+    # listen to keypress event
+    # respond to keypress event
+    # stop the game if the head hits the body (eat itself)
